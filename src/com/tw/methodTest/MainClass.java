@@ -17,8 +17,11 @@ public class MainClass {
 		System.out.println(ret);	
 		
 		System.out.println(t.retMessage());
-		
+				
 		System.out.println(t.protectedMember);
+		
+		ret = t.add(30, 10);
+		System.out.println("Updated by using github code " + ret);
 	}
 
 }
