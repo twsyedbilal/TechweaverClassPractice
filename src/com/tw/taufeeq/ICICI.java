@@ -10,8 +10,8 @@ public class ICICI extends AbstractionTest {
 
 	@Override
 	public String checkBalance() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("100");
+		return "you have 100 RS";
 	}
 
 	@Override
