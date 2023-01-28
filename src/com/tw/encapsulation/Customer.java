@@ -1,0 +1,54 @@
+package com.tw.encapsulation;
+
+public class Customer {
+	private String name;
+	private String address;
+	private String panNo;
+	private int age;
+
+	public Customer(String name, String address, String panNo, int age) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.panNo = panNo;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getPanNo() {
+		return panNo;
+	}
+
+	public void setPanNo(String panNo) {
+		this.panNo = panNo;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", address=" + address + ", panNo=" + panNo + ", age=" + age + "]";
+	}
+	
+}
