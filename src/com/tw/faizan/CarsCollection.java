@@ -6,6 +6,7 @@ public class CarsCollection {
 	String colour;
 	String engine;
 	double price;
+	String a;
 
 	public CarsCollection(String carName, String brand, String colour, String engine, double price) {
 		super();
