@@ -1,17 +1,16 @@
 package com.tw.taufeeq;
 
-public class CollectionPractice {
+public class Mobile {
 	int id;
 	String name;
 	String brand;
 	double price;
 
-	public CollectionPractice(int id, String name, String brand, double price) {
+	public Mobile(int id, String name, String brand, double price) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.brand = brand;
-
 		this.price = price;
 	}
 
@@ -49,7 +48,7 @@ public class CollectionPractice {
 
 	@Override
 	public String toString() {
-		return "CollectionPractice [id=" + id + ", name=" + name + ", brand=" + brand + ", price=" + price + "]";
+		return "Mobile [id=" + id + ", name=" + name + ", brand=" + brand + ", price=" + price + "]";
 	}
 
 }
