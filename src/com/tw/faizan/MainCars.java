@@ -12,7 +12,7 @@ public class MainCars {
 		CarsCollection c3 = new CarsCollection("Trivea ", "BBT", "Black", "850 hp", 25000000);
 		CarsCollection c4 = new CarsCollection("Rolls Royce", "RR", "Cream", "1000 hp", 40000000);
 
-		List<CarsCollection> car = new ArrayList<>();
+		List<CarsCollection> car = new ArrayList<>() ;
 		car.add(c1);
 		car.add(c2);
 		car.add(c3);
