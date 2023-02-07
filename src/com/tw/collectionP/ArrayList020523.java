@@ -12,11 +12,10 @@ public class ArrayList020523 {
 	//Re-sizable-array implementation of the List interface
 	List<Laptop> lap=new ArrayList<>();
 	
-	List<Laptop> adding(){
+		List<Laptop> adding(){
 		lap.add(l1);
 		lap.add(l2);
 		lap.add(l3);
-		
 		return lap;
 	}
 	
