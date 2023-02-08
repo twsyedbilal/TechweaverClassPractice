@@ -22,5 +22,7 @@ public static void main(String[] args) {
 	for(Mobiles details : list ) {
 		System.out.println(details.toString());
 	}
+	
+	System.out.println("For practicing ignor it");
 }
 }
