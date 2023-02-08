@@ -40,5 +40,6 @@ public class StackTest {
 		System.out.println(st.s.peek());
 		System.out.println(st.s.search("B"));
 		System.out.println(st.s.empty());
+		System.out.println(st.s.indexOf("A"));
 	}
 }
