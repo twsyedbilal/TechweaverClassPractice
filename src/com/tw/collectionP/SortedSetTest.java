@@ -9,6 +9,13 @@ public class SortedSetTest {
 	
 	public static void main(String[] args) {
 		add();
+		/*
+		 * for (Integer i : s) { System.out.println(i); }
+		 */
+		
+		//System.out.println(s);
+		System.out.println(s.first());
+		System.out.println(s.last());
 		System.out.println(s);
 	}
 
