@@ -18,5 +18,6 @@ public class HashSetPractice {
 		HashSetPractice t=new HashSetPractice();
 		t.add();
 		System.out.println(t.s);
+		
 	}
 }
