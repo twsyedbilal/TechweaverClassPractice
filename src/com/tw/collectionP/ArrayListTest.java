@@ -18,6 +18,7 @@ public class ArrayListTest {
 		list.add(l3);
 		list.add(l4);
 		list.add(l5);
+		list.add(l5);
 		
 		for (Laptop obj : list) {
 			System.out.println(obj.toString());

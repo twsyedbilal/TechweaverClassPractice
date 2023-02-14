@@ -39,6 +39,7 @@ public class SetPractice {
 		//Difference
 		s.s1.removeAll(s.s1);
 		System.out.println(s.s1);
+		
 	}
 
 }
