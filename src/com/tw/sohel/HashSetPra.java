@@ -14,17 +14,17 @@ public class HashSetPra {
 		s1.add("D");
 		s1.add("E");
 	}
-	
+
 	void HashSetRemove() {
 		s1.remove("A");
 	}
+
 	public static void main(String[] args) {
 		HashSetPra s2 = new HashSetPra();
 		s2.HashSetAdd();
 		System.out.println(s2.s1);
 		s2.HashSetRemove();
 		System.out.println(s2.s1);
-		
-		
+
 	}
 }
