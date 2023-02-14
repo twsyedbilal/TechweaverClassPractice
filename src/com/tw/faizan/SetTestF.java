@@ -22,7 +22,7 @@ public class SetTestF {
 
 	}
 
-	public static void main(String[] args) {
+	public static <E> void main(String[] args) {
 		SetTestF sf = new SetTestF();
 
 		sf.addInSet();
@@ -40,6 +40,12 @@ public class SetTestF {
 		// Difference
 		sf.s1.removeAll(sf.s2);
 		System.out.println(sf.s1);
+		
+		HashSet<E>h=new HashSet<>();
+		
+		h.add((E) "g");
+		h.add((E) "o");
+		System.out.println(h);
 	}
 
 }
