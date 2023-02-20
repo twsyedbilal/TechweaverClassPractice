@@ -19,5 +19,7 @@ public class LinkedHashMapTest {
 		m2.put(2, "A");
 		m2.put(3, "a");
 		System.out.println(m2);
+	
+		
 	}
 }
