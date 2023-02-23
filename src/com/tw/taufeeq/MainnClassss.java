@@ -5,8 +5,8 @@ public class MainnClassss {
 	public static void main(String[] args) {
  ByImpRunnableInterface br=new ByImpRunnableInterface();
   br.run();
-   Thread t=new Thread();
-   t.start();
+  
+     
 	}
 
 }
