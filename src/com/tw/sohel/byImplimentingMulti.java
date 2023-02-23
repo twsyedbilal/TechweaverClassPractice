@@ -16,7 +16,7 @@ public class byImplimentingMulti implements Runnable{
 	public static void main(String[] args) {
 		byImplimentingMulti m2 = new byImplimentingMulti();
 		// we don't call to start method in runnable interface because there have only one method in runnable interface
-		m2.run();
+		m2.run();	
 		for (Map.Entry<Integer, String> entry : m2.m1.entrySet()) {
 		System.out.println(entry.getKey() + " : " + entry.getValue());
 			
