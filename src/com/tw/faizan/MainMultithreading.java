@@ -6,7 +6,7 @@ public class MainMultithreading {
 		MultiThreadingF f = new MultiThreadingF();
 
 		f.start();
-		;
+		
 	}
 
 }
