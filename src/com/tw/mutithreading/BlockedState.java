@@ -6,8 +6,8 @@ public class BlockedState implements Runnable {
 		try {
 			add();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
 	}
 
